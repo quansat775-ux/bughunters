@@ -191,6 +191,10 @@ domain: {
   tier: TIER1
 }
 domain: {
+  fqdn: "android.google.com"
+  tier: TIER1
+}
+domain: {
   fqdn: "baseline.google.com"
   tier: TIER1
 }
@@ -416,6 +420,10 @@ domain: {
 }
 domain: {
   fqdn: "orion.google"
+  tier: TIER1
+}
+domain: {
+  fqdn: "wiz.io"
   tier: TIER1
 }
 domain: {
@@ -1891,6 +1899,16 @@ domain: {
   tier: TIER3
 }
 domain: {
+  fqdn: "gcr-staging.sandbox.google.com"
+  # This is the staging version of the TIER4 gcr.io domain, but is required to be TIER2 because it ends in google.com.
+  tier: TIER2
+}
+domain: {
+  fqdn: "us-gcr-staging.sandbox.google.com"
+  # This is the staging version of the TIER4 gcr.io domain, but is required to be TIER2 because it ends in google.com.
+  tier: TIER2
+}
+domain: {
   fqdn: "create.meme"
   tier: TIER3
 }
@@ -1921,6 +1939,10 @@ domain: {
 domain: {
   fqdn: "upload.meme"
   tier: TIER3
+}
+domain: {
+  fqdn: "run.app"
+  tier: TIER4
 }
 domain: {
   fqdn: "adscape.com"
@@ -1996,6 +2018,10 @@ domain: {
 }
 domain: {
   fqdn: "corp.googleapis.com"
+  tier: TIER4
+}
+domain: {
+  fqdn: "hybrid.googleapis.com"
   tier: TIER4
 }
 domain: {
@@ -2159,6 +2185,10 @@ domain: {
   tier: TIER4
 }
 domain: {
+  fqdn: "gateway.dev"
+  tier: TIER4
+}
+domain: {
   fqdn: "pkg.dev"
   tier: TIER4
 }
@@ -2235,6 +2265,10 @@ domain: {
   tier: TIER4
 }
 domain: {
+  fqdn: "cloudfunctions.net"
+  tier: TIER4
+}
+domain: {
   fqdn: "dartsearch.net"
   tier: TIER4
 }
@@ -2292,5 +2326,13 @@ domain: {
 }
 domain: {
   fqdn: "tdcommons.org"
+  tier: TIER4
+}
+domain: {
+  fqdn: "cloud.run"
+  tier: TIER4
+}
+domain: {
+  fqdn: "ai.studio"
   tier: TIER4
 }

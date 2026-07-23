@@ -753,6 +753,22 @@ domain: {
   tier: TIER1
 }
 domain: {
+  fqdn: "bigsur.ai"
+  tier: TIER2
+}
+domain: {
+  fqdn: "corpusant.ai"
+  tier: TIER2
+}
+domain: {
+  fqdn: "producer.ai"
+  tier: TIER2
+}
+domain: {
+  fqdn: "flowmusic.app"
+  tier: TIER2
+}
+domain: {
   fqdn: "ordering.app"
   tier: TIER2
 }
@@ -1313,6 +1329,10 @@ domain: {
   tier: TIER2
 }
 domain: {
+  fqdn: "riffusion.com"
+  tier: TIER2
+}
+domain: {
   fqdn: "savageplanetgame.com"
   tier: TIER2
 }
@@ -1442,6 +1462,10 @@ domain: {
 }
 domain: {
   fqdn: "whereismytrain.in"
+  tier: TIER2
+}
+domain: {
+  fqdn: "riff.ing"
   tier: TIER2
 }
 domain: {
@@ -2991,6 +3015,10 @@ domain: {
   tier: TIER3
 }
 domain: {
+  fqdn: "getbigsur.ai"
+  tier: TIER4
+}
+domain: {
   fqdn: "_validate_domain.spaceship.airforce"
   tier: TIER4
 }
@@ -3251,6 +3279,10 @@ domain: {
   tier: TIER4
 }
 domain: {
+  fqdn: "corpusants.com"
+  tier: TIER4
+}
+domain: {
   fqdn: "cosmonioushigh.com"
   tier: TIER4
 }
@@ -3329,6 +3361,7 @@ domain: {
 domain: {
   fqdn: "mandiant.com"
   tier: TIER4
+  propagate_tier_to_direct_subdomains: true
 }
 domain: {
   fqdn: "academy.mandiant.com"
@@ -3372,6 +3405,10 @@ domain: {
 }
 domain: {
   fqdn: "owlchemyvr.com"
+  tier: TIER4
+}
+domain: {
+  fqdn: "riffusionlabs.com"
   tier: TIER4
 }
 domain: {
@@ -3783,6 +3820,10 @@ domain: {
   tier: TIER4
 }
 domain: {
+  fqdn: "radio.new"
+  tier: TIER4
+}
+domain: {
   fqdn: "digitalworkspacealliance.org"
   tier: TIER4
 }
@@ -3932,10 +3973,6 @@ domain: {
 }
 domain: {
   fqdn: "brand.isolabs.ai"
-  tier: TIER3
-}
-domain: {
-  fqdn: "idaware-demo.isolabs.ai"
   tier: TIER3
 }
 domain: {

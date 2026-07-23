@@ -54,6 +54,7 @@ Package                                                                         
 [lz4](https://github.com/lz4/lz4)                                                              | 1/2025          | Other essential libraries
 [tensorflow](https://github.com/tensorflow/tensorflow)                                         | 1/2025          | Other essential libraries
 [BoringSSL](https://boringssl.googlesource.com/boringssl)                                      | 1/2025          | Other essential libraries
+[nsjail](https://github.com/google/nsjail)                                                     | 7/2026          | Other essential libraries
 [OpenSSH](https://www.openssh.com/)                                                            | Prior to 1/2025 | Other high-impact network services
 [OpenVPN](https://openvpn.net/source-code/)                                                    | Prior to 1/2025 | Other high-impact network services
 [BIND](https://github.com/isc-projects/bind9)                                                  | Prior to 1/2025 | Other high-impact network services
@@ -109,6 +110,3 @@ Package                                                                         
 ## Tier 2
 
 -   [Projects integrated into OSS-Fuzz](https://github.com/google/oss-fuzz/tree/master/projects)
-    (also see the
-    [OSS-Fuzz Rewards program rules](https://bughunters.google.com/about/rules/5097259337383936)
-    for more information)
