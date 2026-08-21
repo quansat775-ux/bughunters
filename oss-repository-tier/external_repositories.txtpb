@@ -199,11 +199,6 @@ repository {
   product_vuln_scope: SCOPE_OSS_VRP
 }
 repository {
-  url: "https://github.com/googleforgames/agones"
-  tier: TIER_OT1
-  product_vuln_scope: SCOPE_OSS_VRP
-}
-repository {
   url: "https://github.com/google/filament"
   tier: TIER_OT1
   product_vuln_scope: SCOPE_OSS_VRP
@@ -291,6 +286,11 @@ repository {
 repository {
   url: "https://fuchsia.googlesource.com/fuchsia"
   tier: TIER_OT0
+  product_vuln_scope: SCOPE_OSS_VRP
+}
+repository {
+  url: "https://fuchsia.googlesource.com/fuchsia/+/refs/heads/main/src/starnix/"
+  tier: TIER_OT1
   product_vuln_scope: SCOPE_OSS_VRP
 }
 repository {
